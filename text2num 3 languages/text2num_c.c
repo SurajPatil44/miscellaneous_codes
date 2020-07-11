@@ -55,9 +55,8 @@ void get_num_from_string(const char *text,const int len,int *result,int *_len){
             found = 1;
             out *= 10;
             //out *= 10;
-			out += text[iter] - '0';
-        }
-        else{
+            out += text[iter] - '0';
+        }else{
             if( found && is_neg){
                 out *= -1;
                 *(result + nums_found) = out;
