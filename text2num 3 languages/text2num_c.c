@@ -22,8 +22,8 @@ int main(){
         i++;
     }
     arr = (int *)malloc(sizeof(int) * i);
-    if (arr != NULL){
-        //printf("OK");
+    if (arr == NULL){
+        exit(1);
     }
     get_num_from_string(input,i,arr,&arr_len);  
     //printf("found %d results ",arr_len);
