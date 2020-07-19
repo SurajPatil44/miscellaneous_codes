@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1594899627 source:c:\users\surapati\onedrive - qualcomm\documents\c&cpp\some_interesting_scripts\string_comp_with_hash_c_\minigrep_c\main.c
+	<stdio.h>
+	<stdlib.h>
+	<String.h>
+	"list.h"
+
+1594883058 c:\users\surapati\onedrive - qualcomm\documents\c&cpp\some_interesting_scripts\string_comp_with_hash_c_\minigrep_c\list.h
+
+1594892848 source:c:\users\surapati\onedrive - qualcomm\documents\c&cpp\some_interesting_scripts\string_comp_with_hash_c_\minigrep_c\list.c
+	<assert.h>
+	<string.h>
+	<stdlib.h>
+	"List.h"
+
