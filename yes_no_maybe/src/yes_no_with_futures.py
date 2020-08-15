@@ -72,7 +72,7 @@ if __name__ == "__main__":
             while True:                
                 if not fut2calc:
                     break
-                if num1.done:
+                if num1.done():
                     fut = num1
                     fut2calc.remove(num1)
                     res = fut.result()
@@ -90,7 +90,7 @@ if __name__ == "__main__":
                 #print("in second loop")
                 if not fut2image:
                     break
-                if num2.done:
+                if num2.done():
                     fut2 = num2
                     fut2image.remove(num2)
                     #print(f"done with {num2}")
